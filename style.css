@@ -1,5 +1,6 @@
 :root {
-    --main-color: #3083c7;
+    --main-color: #362d47;
+    --second-color:#009688 ;
   }
   
   * {
@@ -69,7 +70,7 @@
     width: 100%;
     display: block;
     padding: 15px;
-    border: 3px solid var(--main-color);
+    border: 3px solid var(--second-color);
     font-size: 20px;
     text-align: center;
     /* text-transform: capitalize; */
