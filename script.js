@@ -184,7 +184,7 @@ const timer = () => {
 
 
 
-            if (theWord.textContent.toUpperCase() === input.value.toUpperCase()) {
+            if (theWord.textContent.toUpperCase() === input.value.toUpperCase().trim()) {
                 //console.log("u got it");
                 input.value = "";
 
